@@ -1,10 +1,20 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import CategoryPage from "./pages/CategoryPage";
 
 function App() {
   return (
-    <div className="App">
-      <h2>Studyup</h2>
-    </div>
+      <Router>
+        <Switch>
+          
+          <Route exact to="/">
+            <CategoryPage />
+          </Route>
+
+         
+
+        </Switch>
+      </Router>
   );
 }
 

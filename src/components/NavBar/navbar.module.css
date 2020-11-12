@@ -1,0 +1,9 @@
+.nav {
+  background-color: #7A90DB;
+  height: 60px;
+  box-shadow: 2px 8px 15px rgba(0,0,0,0.3);
+}
+
+.logo {
+  color: white;
+}
